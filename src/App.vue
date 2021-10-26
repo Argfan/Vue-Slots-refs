@@ -1,18 +1,21 @@
 <template>
   <div id="app">
-    <!-- <ProductList/> -->
-    asd
+    <div class="container">
+      <UserPage/>
+      
+    </div>
+    
   </div>
 </template>
 
 <script>
 
-// import ProductList from './components/ProductList.vue'
+import UserPage from './components/UserPage'
 
 export default {
   name: 'App',
   components: {
-    // ProductList
+    UserPage
   }
 }
 </script>
