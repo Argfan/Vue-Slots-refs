@@ -8,7 +8,26 @@
       v-if="isModalOpen"
       title="Очень важнач информация"
       @close="isModalOpen = false"
-    />
+    >
+      <div class="information">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nam laboriosam repellendus dolorem enim. Magnam reiciendis quae doloribus aut cum provident odio dignissimos quidem rerum sit repellat iste, ipsum voluptatum.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nam laboriosam repellendus dolorem enim. Magnam reiciendis quae doloribus aut cum provident odio dignissimos quidem rerum sit repellat iste, ipsum voluptatum.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nam laboriosam repellendus dolorem enim. Magnam reiciendis quae doloribus aut cum provident odio dignissimos quidem rerum sit repellat iste, ipsum voluptatum.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nam laboriosam repellendus dolorem enim. Magnam reiciendis quae doloribus aut cum provident odio dignissimos quidem rerum sit repellat iste, ipsum voluptatum.
+        </p>
+      </div>
+      <!-- <template v-slot:footer>
+            <button type="button" class="btn btn-secondary" @click="closeModal">Закрыть 2</button>
+            <button type="button" class="btn btn-primary">Сохранить изменения 2</button>
+      </template> -->
+    </Modal>
   </div>
 </template>
 
@@ -23,7 +42,7 @@ export default {
   },
   data(){
     return{
-      isModalOpen :false
+      isModalOpen : false
     }
   },
   methods: {
